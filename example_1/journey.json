@@ -12,17 +12,19 @@
       "name": "Prairie verte",
       "latitude": 43.714247,
       "longitude": 7.289003,
-      "radius": 1000,
+      "radius": 10,
       "channels": [
         {
           "uuid": "31602551-be57-4659-80cf-98f5b73e97fb",
-          "longitude": 0,
-          "latitude": 0,
-          "altitude": 0,
+          "object": "9D13C8BB-8EEB-4ED5-983D-938205AAC586",
+          "longitude": 7.289003,
+          "latitude": 43.714247,
+          "altitude": 2,
           "scale": 1
         },
         {
           "uuid": "b2a72fb4-735c-4cc6-8b77-d28701141f02",
+          "object": "9D13C8BB-8EEB-4ED5-983D-938205AAC586",
           "longitude": 0,
           "latitude": 0,
           "altitude": 0,
@@ -35,10 +37,17 @@
       "name": "Colline chatoyante",
       "latitude": 43.714118,
       "longitude": 7.28878,
-      "radius": 20,
+      "radius": 10,
       "channels": [
         {
           "uuid": "1d8582ef-558f-4c49-a683-3a48c76574cd",
+          "longitude": 0,
+          "latitude": 0,
+          "altitude": 0,
+          "scale": 1
+        },
+        {
+          "uuid": "b2a72fb4-735c-4cc6-8b77-d28701141f02",
           "longitude": 0,
           "latitude": 0,
           "altitude": 0,
@@ -86,7 +95,7 @@
     {
       "uuid": "1d8582ef-558f-4c49-a683-3a48c76574cd",
       "name": "Canal tag",
-      "marker": "73412a43-eacb-41bc-8ae8-99aded88afcb",
+      "marker": "988fcdba-6926-4eb4-bceb-a17b07b64474",
       "contents": [
         {
           "uuid": "3c9da211-0292-4b8c-9c30-791a595f8604",
@@ -95,14 +104,52 @@
         {
           "uuid": "286137ff-d7bd-4ad6-89b0-bafc7524e329",
           "name": "Sound bouc"
+        },
+        {
+          "uuid": "a6b665d6-db35-479d-9384-044cfe951a24",
+          "name": "Box 1",
+          "position": {
+            "x": 0.3756109516185864,
+            "y": 0.31870836195031044,
+            "z": 0.23018117973759644
+          },
+          "scale": {
+            "x": 0.2454471561419308,
+            "y": 0.3654396270230019,
+            "z": 0.4637573950580179
+          }
         }
       ]
     },
     {
       "uuid": "b2a72fb4-735c-4cc6-8b77-d28701141f02",
       "name": "Canal Frozen",
-      "marker": "988fcdba-6926-4eb4-bceb-a17b07b64474",
-      "contents": []
+      "marker": null,
+      "contents": [
+        {
+          "uuid": "3c9da211-0292-4b8c-9c30-791a595f8604",
+          "name": "Hublot"
+        },
+        {
+          "uuid": "1a6a575b-6aab-4c0f-8b6e-3640631c811e",
+          "name": "Monster",
+          "position": {
+            "x": 0.18793844033357832,
+            "y": 0.06545573494107823,
+            "z": 0.20038225499093176
+          },
+          "rotation": {
+            "x": 1.6024446882996504,
+            "y": 1.2860169224138207,
+            "z": -5.716376846309862e-8
+          },
+          "scale": {
+            "x": 0.010338347149779246,
+            "y": 0.010338347149779246,
+            "z": 0.010338347149779246
+          }
+        }
+      ]
     }
   ],
   "markers": [
@@ -139,52 +186,75 @@
     {
       "uuid": "62559c31-b984-469c-8993-567bb8272fd9",
       "name": "Banane",
-      "object": "FAC8F7BA-3C31-4C99-BDA9-9DCD463141DE"
+      "object": "15075875-B867-4623-A9E8-C50298564AAC"
     },
     {
       "uuid": "48c7cee9-c444-40b0-8a9a-998b94e9c6b5",
       "name": "Arcciel",
-      "object": "35D35D45-2369-4484-A5D6-59E21A296A39"
+      "object": "6F13CDF8-A973-4DE5-BD31-0F429E0DE438"
     },
     {
       "uuid": "3c9da211-0292-4b8c-9c30-791a595f8604",
       "name": "Hublot",
-      "object": "D451D4F6-B20A-4B43-8A3B-52F35C3101C9"
+      "object": "892FB79B-671A-4F4E-ADE3-CAB3072E90B3"
     },
     {
       "uuid": "286137ff-d7bd-4ad6-89b0-bafc7524e329",
       "name": "Sound bouc",
-      "object": "6C6E9182-47B6-4548-8469-67233ABBC1E2"
+      "object": "7097D321-499D-477F-9C9A-8EA528C2C0C0"
+    },
+    {
+      "uuid": "a6b665d6-db35-479d-9384-044cfe951a24",
+      "name": "Box 1",
+      "object": "9D13C8BB-8EEB-4ED5-983D-938205AAC586"
+    },
+    {
+      "uuid": "1a6a575b-6aab-4c0f-8b6e-3640631c811e",
+      "name": "Monster",
+      "object": "B3CE522C-986F-4B77-9D68-E7F11598FDC6"
     }
   ],
   "objects": {
     "objects": [
       {
-        "uuid": "D451D4F6-B20A-4B43-8A3B-52F35C3101C9",
-        "type": "Mesh",
-        "name": "lehublot",
-        "geometry": "50DBA06D-DC6D-4F1F-BF90-BE6F3F69CB5D",
-        "material": "C6320FDE-4975-40FC-B263-BC06105B33E7"
-      },
-      {
-        "uuid": "35D35D45-2369-4484-A5D6-59E21A296A39",
+        "uuid": "6F13CDF8-A973-4DE5-BD31-0F429E0DE438",
         "type": "Mesh",
         "name": "arcciel-steven",
         "geometry": "50DBA06D-DC6D-4F1F-BF90-BE6F3F69CB5D",
-        "material": "43DF6D09-B2EA-4AEB-BAC4-FEE198C09284"
+        "material": "444F6898-F392-498A-A080-BDCC91A04618"
       },
       {
-        "uuid": "FAC8F7BA-3C31-4C99-BDA9-9DCD463141DE",
+        "uuid": "15075875-B867-4623-A9E8-C50298564AAC",
         "type": "Mesh",
         "name": "banana",
         "geometry": "50DBA06D-DC6D-4F1F-BF90-BE6F3F69CB5D",
-        "material": "65303949-0544-4962-A02D-063355A4918E"
+        "material": "837B702F-818A-4075-A25C-075176003D03"
       },
       {
-        "uuid": "6C6E9182-47B6-4548-8469-67233ABBC1E2",
+        "uuid": "892FB79B-671A-4F4E-ADE3-CAB3072E90B3",
+        "type": "Mesh",
+        "name": "lehublot",
+        "geometry": "50DBA06D-DC6D-4F1F-BF90-BE6F3F69CB5D",
+        "material": "C6FB7871-52BF-4095-BA89-D254AF73739D"
+      },
+      {
+        "uuid": "7097D321-499D-477F-9C9A-8EA528C2C0C0",
         "type": "SoundObject",
         "name": "bouc",
-        "sound": "9BB35BF8-F454-4C1E-9FAA-BEFDFC1E4FD0"
+        "sound": "97B28805-DF01-4CB3-AE86-707205510ECB"
+      },
+      {
+        "uuid": "9D13C8BB-8EEB-4ED5-983D-938205AAC586",
+        "type": "Mesh",
+        "name": "Box 1",
+        "geometry": "42E5CC1F-DE00-4A2F-99AA-4AC6290B64CB",
+        "material": "7A604DFE-7FDF-4601-9F44-9374747A7F5A"
+      },
+      {
+        "uuid": "B3CE522C-986F-4B77-9D68-E7F11598FDC6",
+        "type": "Collada",
+        "name": "monster.dae",
+        "url": "monster.dae"
       }
     ],
     "geometries": [
@@ -194,67 +264,83 @@
         "name": "PLANE_GEOMETRY_UNIT",
         "width": 1,
         "height": 1
+      },
+      {
+        "uuid": "42E5CC1F-DE00-4A2F-99AA-4AC6290B64CB",
+        "type": "BoxGeometry",
+        "width": 1,
+        "height": 1,
+        "depth": 1
       }
     ],
     "materials": [
       {
-        "uuid": "C6320FDE-4975-40FC-B263-BC06105B33E7",
+        "uuid": "444F6898-F392-498A-A080-BDCC91A04618",
         "type": "MeshBasicMaterial",
         "color": 16777215,
-        "map": "DA7EC2A9-F7DD-4987-862D-C6A03BBC99E0",
-        "side": 2
-      },
-      {
-        "uuid": "43DF6D09-B2EA-4AEB-BAC4-FEE198C09284",
-        "type": "MeshBasicMaterial",
-        "color": 16777215,
-        "map": "DF6B17DF-49DC-47C3-AD37-24792622AC69",
+        "map": "237F4A87-89F8-4E32-89D9-98101EF9AD71",
         "side": 2,
         "transparent": true
       },
       {
-        "uuid": "65303949-0544-4962-A02D-063355A4918E",
+        "uuid": "837B702F-818A-4075-A25C-075176003D03",
         "type": "MeshBasicMaterial",
         "color": 16777215,
-        "map": "45E10EC4-AFFA-4C88-9842-E6FEF221731D",
+        "map": "6D664927-2C7E-4EB2-B3DD-EB57C04BC3B0",
         "side": 2,
         "transparent": true
+      },
+      {
+        "uuid": "C6FB7871-52BF-4095-BA89-D254AF73739D",
+        "type": "MeshBasicMaterial",
+        "color": 16777215,
+        "map": "04A20A40-3965-4CA4-BDBB-EEAE2AB2E86C",
+        "side": 2,
+        "transparent": true
+      },
+      {
+        "uuid": "7A604DFE-7FDF-4601-9F44-9374747A7F5A",
+        "type": "MeshPhongMaterial",
+        "color": 7850484,
+        "emissive": 0,
+        "specular": 1118481,
+        "shininess": 30
       }
     ],
     "textures": [
       {
-        "uuid": "DA7EC2A9-F7DD-4987-862D-C6A03BBC99E0",
-        "image": "90555F43-873A-4C20-94FC-9E5CBCDA2CB3"
-      },
-      {
-        "uuid": "DF6B17DF-49DC-47C3-AD37-24792622AC69",
-        "image": "AD96FDB5-18ED-4D9C-A094-F36476D93E1A",
+        "uuid": "237F4A87-89F8-4E32-89D9-98101EF9AD71",
+        "image": "F0A73200-8E62-420A-97A2-4FAF1DD3C538",
         "animated": true
       },
       {
-        "uuid": "45E10EC4-AFFA-4C88-9842-E6FEF221731D",
-        "image": "0F902FCA-1406-42AF-BC06-45A15AB3B7EC",
+        "uuid": "6D664927-2C7E-4EB2-B3DD-EB57C04BC3B0",
+        "image": "E9B09EDF-9027-4345-9A1A-6076CD602492",
         "animated": true
+      },
+      {
+        "uuid": "04A20A40-3965-4CA4-BDBB-EEAE2AB2E86C",
+        "image": "06BC215A-848A-4CBD-8F7D-603A0BE2624D"
       }
     ],
     "images": [
       {
-        "uuid": "90555F43-873A-4C20-94FC-9E5CBCDA2CB3",
-        "url": "lehublot.jpg"
-      },
-      {
-        "uuid": "AD96FDB5-18ED-4D9C-A094-F36476D93E1A",
+        "uuid": "F0A73200-8E62-420A-97A2-4FAF1DD3C538",
         "url": "arcciel-steven.gif"
       },
       {
-        "uuid": "0F902FCA-1406-42AF-BC06-45A15AB3B7EC",
+        "uuid": "E9B09EDF-9027-4345-9A1A-6076CD602492",
         "url": "banana.gif"
+      },
+      {
+        "uuid": "06BC215A-848A-4CBD-8F7D-603A0BE2624D",
+        "url": "lehublot.jpg"
       }
     ],
     "videos": [],
     "sounds": [
       {
-        "uuid": "9BB35BF8-F454-4C1E-9FAA-BEFDFC1E4FD0",
+        "uuid": "97B28805-DF01-4CB3-AE86-707205510ECB",
         "url": "bouc.mp3"
       }
     ],
