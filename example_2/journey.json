@@ -1,0 +1,303 @@
+{
+  "journey": {
+    "name": "My little journey",
+    "pois": [
+      "1738fdec-f4d9-4d34-bdaf-9a2e10a012e9",
+      "b63ab756-f231-46d0-ade8-ef06b3d61d6d"
+    ]
+  },
+  "pois": [
+    {
+      "uuid": "1738fdec-f4d9-4d34-bdaf-9a2e10a012e9",
+      "name": "Prairie verte",
+      "latitude": 43.665536,
+      "longitude": 7.04558,
+      "radius": 1000,
+      "channels": [
+        {
+          "uuid": "31602551-be57-4659-80cf-98f5b73e97fb",
+          "longitude": 0,
+          "latitude": 0,
+          "altitude": 0,
+          "scale": 1
+        },
+        {
+          "uuid": "b2a72fb4-735c-4cc6-8b77-d28701141f02",
+          "longitude": 0,
+          "latitude": 0,
+          "altitude": 0,
+          "scale": 1
+        },
+        {
+          "uuid": "e434c746-8aed-4f5d-abec-c4759779b921",
+          "longitude": 0,
+          "latitude": 0,
+          "altitude": 0,
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "uuid": "b63ab756-f231-46d0-ade8-ef06b3d61d6d",
+      "name": "Colline chatoyante",
+      "latitude": 43.714118,
+      "longitude": 7.28878,
+      "radius": 20,
+      "channels": [
+        {
+          "uuid": "1d8582ef-558f-4c49-a683-3a48c76574cd",
+          "longitude": 0,
+          "latitude": 0,
+          "altitude": 0,
+          "scale": 1
+        }
+      ]
+    }
+  ],
+  "channels": [
+    {
+      "uuid": "31602551-be57-4659-80cf-98f5b73e97fb",
+      "name": "Danse banane",
+      "marker": "96f39d28-99b9-4381-b8cb-2d8016308850",
+      "contents": [
+        {
+          "uuid": "48c7cee9-c444-40b0-8a9a-998b94e9c6b5",
+          "name": "Arcciel",
+          "position": {
+            "x": 0.38982038878481484,
+            "y": 0.26226277117245633,
+            "z": 0.0122711117525095
+          },
+          "scale": {
+            "x": 0.48663882950277204,
+            "y": 0.48663882950277204,
+            "z": 0.48663882950277204
+          }
+        },
+        {
+          "uuid": "62559c31-b984-469c-8993-567bb8272fd9",
+          "name": "Banane",
+          "position": {
+            "x": 0,
+            "y": -0.004655075324299485,
+            "z": 0
+          },
+          "scale": {
+            "x": 0.6813457885966498,
+            "y": 0.6813457885966498,
+            "z": 0.6813457885966498
+          }
+        }
+      ]
+    },
+    {
+      "uuid": "1d8582ef-558f-4c49-a683-3a48c76574cd",
+      "name": "Canal tag",
+      "marker": "73412a43-eacb-41bc-8ae8-99aded88afcb",
+      "contents": [
+        {
+          "uuid": "3c9da211-0292-4b8c-9c30-791a595f8604",
+          "name": "Hublot"
+        },
+        {
+          "uuid": "286137ff-d7bd-4ad6-89b0-bafc7524e329",
+          "name": "Sound bouc"
+        }
+      ]
+    },
+    {
+      "uuid": "b2a72fb4-735c-4cc6-8b77-d28701141f02",
+      "name": "Canal Frozen",
+      "marker": "988fcdba-6926-4eb4-bceb-a17b07b64474",
+      "contents": []
+    },
+    {
+      "uuid": "e434c746-8aed-4f5d-abec-c4759779b921",
+      "name": "ImageSaintRock",
+      "marker": "512aa1b0-7498-4470-91cc-22b02e0db82a",
+      "contents": [
+        {
+          "uuid": "3c9da211-0292-4b8c-9c30-791a595f8604",
+          "name": "Hublot",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0.03814190683155316
+          },
+          "scale": {
+            "x": 0.30077190863575204,
+            "y": 0.29474836311844654,
+            "z": 0.8683656380626252
+          }
+        }
+      ]
+    }
+  ],
+  "markers": [
+    {
+      "uuid": "96f39d28-99b9-4381-b8cb-2d8016308850",
+      "name": "tag_1",
+      "type": "tag",
+      "url": "assets/images/tag_1.jpg",
+      "tag_id": 1
+    },
+    {
+      "uuid": "73412a43-eacb-41bc-8ae8-99aded88afcb",
+      "name": "tag_200",
+      "type": "tag",
+      "url": "assets/images/tag_200.jpg",
+      "tag_id": 200
+    },
+    {
+      "uuid": "0f4cc25c-b9d6-4d8c-bc8b-a85a8c88611d",
+      "name": "tag_1000",
+      "type": "tag",
+      "url": "assets/images/tag_1000.jpg",
+      "tag_id": 1000
+    },
+    {
+      "uuid": "988fcdba-6926-4eb4-bceb-a17b07b64474",
+      "name": "tag_1001",
+      "type": "tag",
+      "url": "assets/images/tag_1001.jpg",
+      "tag_id": 1001
+    },
+    {
+      "uuid": "512aa1b0-7498-4470-91cc-22b02e0db82a",
+      "name": "SaintRock",
+      "type": "img",
+      "url": "assets/images/SaintRock.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "uuid": "62559c31-b984-469c-8993-567bb8272fd9",
+      "name": "Banane",
+      "object": "FAC8F7BA-3C31-4C99-BDA9-9DCD463141DE"
+    },
+    {
+      "uuid": "48c7cee9-c444-40b0-8a9a-998b94e9c6b5",
+      "name": "Arcciel",
+      "object": "35D35D45-2369-4484-A5D6-59E21A296A39"
+    },
+    {
+      "uuid": "3c9da211-0292-4b8c-9c30-791a595f8604",
+      "name": "Hublot",
+      "object": "D451D4F6-B20A-4B43-8A3B-52F35C3101C9"
+    },
+    {
+      "uuid": "286137ff-d7bd-4ad6-89b0-bafc7524e329",
+      "name": "Sound bouc",
+      "object": "6C6E9182-47B6-4548-8469-67233ABBC1E2"
+    }
+  ],
+  "objects": {
+    "objects": [
+      {
+        "uuid": "D451D4F6-B20A-4B43-8A3B-52F35C3101C9",
+        "type": "Mesh",
+        "name": "lehublot",
+        "geometry": "50DBA06D-DC6D-4F1F-BF90-BE6F3F69CB5D",
+        "material": "C6320FDE-4975-40FC-B263-BC06105B33E7"
+      },
+      {
+        "uuid": "35D35D45-2369-4484-A5D6-59E21A296A39",
+        "type": "Mesh",
+        "name": "arcciel-steven",
+        "geometry": "50DBA06D-DC6D-4F1F-BF90-BE6F3F69CB5D",
+        "material": "43DF6D09-B2EA-4AEB-BAC4-FEE198C09284"
+      },
+      {
+        "uuid": "FAC8F7BA-3C31-4C99-BDA9-9DCD463141DE",
+        "type": "Mesh",
+        "name": "banana",
+        "geometry": "50DBA06D-DC6D-4F1F-BF90-BE6F3F69CB5D",
+        "material": "65303949-0544-4962-A02D-063355A4918E"
+      },
+      {
+        "uuid": "6C6E9182-47B6-4548-8469-67233ABBC1E2",
+        "type": "SoundObject",
+        "name": "bouc",
+        "sound": "9BB35BF8-F454-4C1E-9FAA-BEFDFC1E4FD0"
+      }
+    ],
+    "geometries": [
+      {
+        "uuid": "50DBA06D-DC6D-4F1F-BF90-BE6F3F69CB5D",
+        "type": "PlaneGeometry",
+        "name": "PLANE_GEOMETRY_UNIT",
+        "width": 1,
+        "height": 1
+      }
+    ],
+    "materials": [
+      {
+        "uuid": "C6320FDE-4975-40FC-B263-BC06105B33E7",
+        "type": "MeshBasicMaterial",
+        "color": 16777215,
+        "map": "DA7EC2A9-F7DD-4987-862D-C6A03BBC99E0",
+        "side": 2
+      },
+      {
+        "uuid": "43DF6D09-B2EA-4AEB-BAC4-FEE198C09284",
+        "type": "MeshBasicMaterial",
+        "color": 16777215,
+        "map": "DF6B17DF-49DC-47C3-AD37-24792622AC69",
+        "side": 2,
+        "transparent": true
+      },
+      {
+        "uuid": "65303949-0544-4962-A02D-063355A4918E",
+        "type": "MeshBasicMaterial",
+        "color": 16777215,
+        "map": "45E10EC4-AFFA-4C88-9842-E6FEF221731D",
+        "side": 2,
+        "transparent": true
+      }
+    ],
+    "textures": [
+      {
+        "uuid": "DA7EC2A9-F7DD-4987-862D-C6A03BBC99E0",
+        "image": "90555F43-873A-4C20-94FC-9E5CBCDA2CB3"
+      },
+      {
+        "uuid": "DF6B17DF-49DC-47C3-AD37-24792622AC69",
+        "image": "AD96FDB5-18ED-4D9C-A094-F36476D93E1A",
+        "animated": true
+      },
+      {
+        "uuid": "45E10EC4-AFFA-4C88-9842-E6FEF221731D",
+        "image": "0F902FCA-1406-42AF-BC06-45A15AB3B7EC",
+        "animated": true
+      }
+    ],
+    "images": [
+      {
+        "uuid": "90555F43-873A-4C20-94FC-9E5CBCDA2CB3",
+        "url": "lehublot.jpg"
+      },
+      {
+        "uuid": "AD96FDB5-18ED-4D9C-A094-F36476D93E1A",
+        "url": "arcciel-steven.gif"
+      },
+      {
+        "uuid": "0F902FCA-1406-42AF-BC06-45A15AB3B7EC",
+        "url": "banana.gif"
+      }
+    ],
+    "videos": [],
+    "sounds": [
+      {
+        "uuid": "9BB35BF8-F454-4C1E-9FAA-BEFDFC1E4FD0",
+        "url": "bouc.mp3"
+      }
+    ],
+    "constants": {
+      "image_path": "images/",
+      "model_path": "models/",
+      "video_path": "videos/",
+      "sound_path": "sounds/",
+      "asset_path": "assets/"
+    }
+  }
+}
