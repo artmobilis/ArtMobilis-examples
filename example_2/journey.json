@@ -34,6 +34,20 @@
           "latitude": 0,
           "altitude": 0,
           "scale": 1
+        },
+        {
+          "uuid": "29a1c1c7-df8a-48ab-90f3-8a521c998680",
+          "longitude": 0,
+          "latitude": 0,
+          "altitude": 0,
+          "scale": 1
+        },
+        {
+          "uuid": "070f9b5b-15f4-4a72-8fb0-e842730b1ee1",
+          "longitude": 0,
+          "latitude": 0,
+          "altitude": 0,
+          "scale": 1
         }
       ]
     },
@@ -131,6 +145,48 @@
           }
         }
       ]
+    },
+    {
+      "uuid": "29a1c1c7-df8a-48ab-90f3-8a521c998680",
+      "name": "ImageSaintRockRight",
+      "marker": "4e4c0674-3935-4259-a2b0-19384acab376",
+      "contents": [
+        {
+          "uuid": "48c7cee9-c444-40b0-8a9a-998b94e9c6b5",
+          "name": "Arcciel",
+          "position": {
+            "x": -0.06314777299115405,
+            "y": -0.31289973241756885,
+            "z": 0
+          },
+          "scale": {
+            "x": 0.5270260891711699,
+            "y": 0.3454379922744184,
+            "z": 1
+          }
+        }
+      ]
+    },
+    {
+      "uuid": "070f9b5b-15f4-4a72-8fb0-e842730b1ee1",
+      "name": "ImageSaintRockLeft",
+      "marker": "eedea3b5-e1cb-4cdd-b1f1-46154b5b9ae3",
+      "contents": [
+        {
+          "uuid": "62559c31-b984-469c-8993-567bb8272fd9",
+          "name": "Banane",
+          "position": {
+            "x": 0.1600289819134026,
+            "y": -0.29735485574940823,
+            "z": 0
+          },
+          "scale": {
+            "x": 0.27398150394079857,
+            "y": 0.25496620781447243,
+            "z": 1
+          }
+        }
+      ]
     }
   ],
   "markers": [
@@ -167,6 +223,18 @@
       "name": "SaintRock",
       "type": "img",
       "url": "assets/images/SaintRock.jpg"
+    },
+    {
+      "uuid": "4e4c0674-3935-4259-a2b0-19384acab376",
+      "name": "SaintRockRight",
+      "type": "img",
+      "url": "assets/images/SaintRockRight.jpg"
+    },
+    {
+      "uuid": "eedea3b5-e1cb-4cdd-b1f1-46154b5b9ae3",
+      "name": "SaintRockLeft",
+      "type": "img",
+      "url": "assets/images/SaintRockLeft.jpg"
     }
   ],
   "contents": [
