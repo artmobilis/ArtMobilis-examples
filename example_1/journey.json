@@ -15,20 +15,50 @@
       "radius": 10,
       "channels": [
         {
-          "uuid": "31602551-be57-4659-80cf-98f5b73e97fb",
-          "object": "9D13C8BB-8EEB-4ED5-983D-938205AAC586",
-          "longitude": 7.289003,
-          "latitude": 43.714247,
-          "altitude": 2,
-          "scale": 1
+          "uuid": "31602551-be57-4659-80cf-98f5b73e97fb"
         },
         {
-          "uuid": "b2a72fb4-735c-4cc6-8b77-d28701141f02",
-          "object": "9D13C8BB-8EEB-4ED5-983D-938205AAC586",
-          "longitude": 0,
-          "latitude": 0,
-          "altitude": 0,
-          "scale": 1
+          "uuid": "b2a72fb4-735c-4cc6-8b77-d28701141f02"
+        }
+      ],
+      "objects": [
+        {
+          "uuid": "9D13C8BB-8EEB-4ED5-983D-938205AAC586",
+          "name": "Box 1",
+          "position": {
+            "x": -6.945473278218276,
+            "y": 0.9452424953009095,
+            "z": -4.7430876392325985
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1.913214446035039,
+            "y": 1.913214446035039,
+            "z": 1.913214446035039
+          }
+        },
+        {
+          "uuid": "892FB79B-671A-4F4E-ADE3-CAB3072E90B3",
+          "name": "lehublot",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
         }
       ]
     },
@@ -40,18 +70,31 @@
       "radius": 10,
       "channels": [
         {
-          "uuid": "1d8582ef-558f-4c49-a683-3a48c76574cd",
-          "longitude": 0,
-          "latitude": 0,
-          "altitude": 0,
-          "scale": 1
+          "uuid": "1d8582ef-558f-4c49-a683-3a48c76574cd"
         },
         {
-          "uuid": "b2a72fb4-735c-4cc6-8b77-d28701141f02",
-          "longitude": 0,
-          "latitude": 0,
-          "altitude": 0,
-          "scale": 1
+          "uuid": "b2a72fb4-735c-4cc6-8b77-d28701141f02"
+        }
+      ],
+      "objects": [
+        {
+          "uuid": "B3CE522C-986F-4B77-9D68-E7F11598FDC6",
+          "name": "monster.dae",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": -157.3282479473134
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
         }
       ]
     }
