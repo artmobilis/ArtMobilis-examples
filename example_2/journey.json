@@ -15,41 +15,22 @@
       "radius": 1000,
       "channels": [
         {
-          "uuid": "31602551-be57-4659-80cf-98f5b73e97fb",
-          "longitude": 0,
-          "latitude": 0,
-          "altitude": 0,
-          "scale": 1
+          "uuid": "31602551-be57-4659-80cf-98f5b73e97fb"
         },
         {
-          "uuid": "b2a72fb4-735c-4cc6-8b77-d28701141f02",
-          "longitude": 0,
-          "latitude": 0,
-          "altitude": 0,
-          "scale": 1
+          "uuid": "b2a72fb4-735c-4cc6-8b77-d28701141f02"
         },
         {
-          "uuid": "e434c746-8aed-4f5d-abec-c4759779b921",
-          "longitude": 0,
-          "latitude": 0,
-          "altitude": 0,
-          "scale": 1
+          "uuid": "e434c746-8aed-4f5d-abec-c4759779b921"
         },
         {
-          "uuid": "29a1c1c7-df8a-48ab-90f3-8a521c998680",
-          "longitude": 0,
-          "latitude": 0,
-          "altitude": 0,
-          "scale": 1
+          "uuid": "29a1c1c7-df8a-48ab-90f3-8a521c998680"
         },
         {
-          "uuid": "070f9b5b-15f4-4a72-8fb0-e842730b1ee1",
-          "longitude": 0,
-          "latitude": 0,
-          "altitude": 0,
-          "scale": 1
+          "uuid": "070f9b5b-15f4-4a72-8fb0-e842730b1ee1"
         }
-      ]
+      ],
+      "objects": []
     },
     {
       "uuid": "b63ab756-f231-46d0-ade8-ef06b3d61d6d",
@@ -59,13 +40,10 @@
       "radius": 20,
       "channels": [
         {
-          "uuid": "1d8582ef-558f-4c49-a683-3a48c76574cd",
-          "longitude": 0,
-          "latitude": 0,
-          "altitude": 0,
-          "scale": 1
+          "uuid": "1d8582ef-558f-4c49-a683-3a48c76574cd"
         }
-      ]
+      ],
+      "objects": []
     }
   ],
   "channels": [
