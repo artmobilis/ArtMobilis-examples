@@ -1,5 +1,6 @@
 {
   "journey": {
+    "uuid": "1C723D60-72EA-4F89-BEC8-A818AC2C7097",
     "name": "My little journey",
     "pois": [
       "1738fdec-f4d9-4d34-bdaf-9a2e10a012e9",
@@ -15,41 +16,16 @@
       "radius": 1000,
       "channels": [
         {
-          "uuid": "31602551-be57-4659-80cf-98f5b73e97fb",
-          "longitude": 0,
-          "latitude": 0,
-          "altitude": 0,
-          "scale": 1
+          "uuid": "e434c746-8aed-4f5d-abec-c4759779b921"
         },
         {
-          "uuid": "b2a72fb4-735c-4cc6-8b77-d28701141f02",
-          "longitude": 0,
-          "latitude": 0,
-          "altitude": 0,
-          "scale": 1
+          "uuid": "29a1c1c7-df8a-48ab-90f3-8a521c998680"
         },
         {
-          "uuid": "e434c746-8aed-4f5d-abec-c4759779b921",
-          "longitude": 0,
-          "latitude": 0,
-          "altitude": 0,
-          "scale": 1
-        },
-        {
-          "uuid": "29a1c1c7-df8a-48ab-90f3-8a521c998680",
-          "longitude": 0,
-          "latitude": 0,
-          "altitude": 0,
-          "scale": 1
-        },
-        {
-          "uuid": "070f9b5b-15f4-4a72-8fb0-e842730b1ee1",
-          "longitude": 0,
-          "latitude": 0,
-          "altitude": 0,
-          "scale": 1
+          "uuid": "070f9b5b-15f4-4a72-8fb0-e842730b1ee1"
         }
-      ]
+      ],
+      "objects": []
     },
     {
       "uuid": "b63ab756-f231-46d0-ade8-ef06b3d61d6d",
@@ -57,94 +33,16 @@
       "latitude": 43.714118,
       "longitude": 7.28878,
       "radius": 20,
-      "channels": [
-        {
-          "uuid": "1d8582ef-558f-4c49-a683-3a48c76574cd",
-          "longitude": 0,
-          "latitude": 0,
-          "altitude": 0,
-          "scale": 1
-        }
-      ]
+      "channels": [],
+      "objects": []
     }
   ],
   "channels": [
     {
-      "uuid": "31602551-be57-4659-80cf-98f5b73e97fb",
-      "name": "Danse banane",
-      "marker": "96f39d28-99b9-4381-b8cb-2d8016308850",
-      "contents": [
-        {
-          "uuid": "48c7cee9-c444-40b0-8a9a-998b94e9c6b5",
-          "name": "Arcciel",
-          "position": {
-            "x": 0.38982038878481484,
-            "y": 0.26226277117245633,
-            "z": 0.0122711117525095
-          },
-          "scale": {
-            "x": 0.48663882950277204,
-            "y": 0.48663882950277204,
-            "z": 0.48663882950277204
-          }
-        },
-        {
-          "uuid": "62559c31-b984-469c-8993-567bb8272fd9",
-          "name": "Banane",
-          "position": {
-            "x": 0,
-            "y": -0.004655075324299485,
-            "z": 0
-          },
-          "scale": {
-            "x": 0.6813457885966498,
-            "y": 0.6813457885966498,
-            "z": 0.6813457885966498
-          }
-        }
-      ]
-    },
-    {
-      "uuid": "1d8582ef-558f-4c49-a683-3a48c76574cd",
-      "name": "Canal tag",
-      "marker": "73412a43-eacb-41bc-8ae8-99aded88afcb",
-      "contents": [
-        {
-          "uuid": "3c9da211-0292-4b8c-9c30-791a595f8604",
-          "name": "Hublot"
-        },
-        {
-          "uuid": "286137ff-d7bd-4ad6-89b0-bafc7524e329",
-          "name": "Sound bouc"
-        }
-      ]
-    },
-    {
-      "uuid": "b2a72fb4-735c-4cc6-8b77-d28701141f02",
-      "name": "Canal Frozen",
-      "marker": "988fcdba-6926-4eb4-bceb-a17b07b64474",
-      "contents": []
-    },
-    {
       "uuid": "e434c746-8aed-4f5d-abec-c4759779b921",
       "name": "ImageSaintRock",
       "marker": "512aa1b0-7498-4470-91cc-22b02e0db82a",
-      "contents": [
-        {
-          "uuid": "3c9da211-0292-4b8c-9c30-791a595f8604",
-          "name": "Hublot",
-          "position": {
-            "x": 0,
-            "y": 0,
-            "z": 0.03814190683155316
-          },
-          "scale": {
-            "x": 0.30077190863575204,
-            "y": 0.29474836311844654,
-            "z": 0.8683656380626252
-          }
-        }
-      ]
+      "contents": []
     },
     {
       "uuid": "29a1c1c7-df8a-48ab-90f3-8a521c998680",
@@ -152,17 +50,17 @@
       "marker": "4e4c0674-3935-4259-a2b0-19384acab376",
       "contents": [
         {
-          "uuid": "48c7cee9-c444-40b0-8a9a-998b94e9c6b5",
-          "name": "Arcciel",
+          "uuid": "D451D4F6-B20A-4B43-8A3B-52F35C3101C9",
+          "name": "lehublot",
           "position": {
-            "x": -0.06314777299115405,
-            "y": -0.31289973241756885,
+            "x": -0.015714192629531165,
+            "y": 0.1932447503229606,
             "z": 0
           },
           "scale": {
-            "x": 0.5270260891711699,
-            "y": 0.3454379922744184,
-            "z": 1
+            "x": 0.3670612866972529,
+            "y": 0.3670612866972529,
+            "z": 0.3670612866972529
           }
         }
       ]
@@ -173,17 +71,17 @@
       "marker": "eedea3b5-e1cb-4cdd-b1f1-46154b5b9ae3",
       "contents": [
         {
-          "uuid": "62559c31-b984-469c-8993-567bb8272fd9",
-          "name": "Banane",
+          "uuid": "FAC8F7BA-3C31-4C99-BDA9-9DCD463141DE",
+          "name": "banana",
           "position": {
-            "x": 0.1600289819134026,
-            "y": -0.29735485574940823,
+            "x": 0.12797719582401523,
+            "y": -0.35306321563671833,
             "z": 0
           },
           "scale": {
-            "x": 0.27398150394079857,
-            "y": 0.25496620781447243,
-            "z": 1
+            "x": 0.14525980313916087,
+            "y": 0.14525980313916087,
+            "z": 0.14525980313916087
           }
         }
       ]
@@ -235,28 +133,6 @@
       "name": "SaintRockLeft",
       "type": "img",
       "url": "assets/images/SaintRockLeft.jpg"
-    }
-  ],
-  "contents": [
-    {
-      "uuid": "62559c31-b984-469c-8993-567bb8272fd9",
-      "name": "Banane",
-      "object": "FAC8F7BA-3C31-4C99-BDA9-9DCD463141DE"
-    },
-    {
-      "uuid": "48c7cee9-c444-40b0-8a9a-998b94e9c6b5",
-      "name": "Arcciel",
-      "object": "35D35D45-2369-4484-A5D6-59E21A296A39"
-    },
-    {
-      "uuid": "3c9da211-0292-4b8c-9c30-791a595f8604",
-      "name": "Hublot",
-      "object": "D451D4F6-B20A-4B43-8A3B-52F35C3101C9"
-    },
-    {
-      "uuid": "286137ff-d7bd-4ad6-89b0-bafc7524e329",
-      "name": "Sound bouc",
-      "object": "6C6E9182-47B6-4548-8469-67233ABBC1E2"
     }
   ],
   "objects": {
